@@ -6,7 +6,7 @@
   font-family: "Nunito", sans-serif;
 }
 body {
-  background: lightblue;
+  background: rgb(8, 34, 43);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,6 +42,7 @@ body {
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
+  border: #fff 2px solid;
 }
 .profileText .imgBx img {
   position: absolute;
@@ -85,7 +86,8 @@ body {
   display: inline-block;
   width: 30px;
   font-size: 18px;
-  color: #03a9f4;
+  color: rgb(169, 209, 241);
+  /* color: #03a9f4; */
 }
 .contactInfo ul li span {
   color: #fff;
@@ -137,4 +139,22 @@ body {
 }
 p {
   color: #333;
+}
+.about .box {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+.about .box .year_company {
+  min-width: 120px;
+}
+.about .box .year_company h5 {
+  /* text-transform: uppercase; */
+  color: #848c90;
+  font-weight: 300;
+}
+.about .box .text h4 {
+  color: #2a7da2;
+  font-size: 16px;
+  /* text-transform: uppercase; */
 }
