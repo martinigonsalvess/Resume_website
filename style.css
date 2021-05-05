@@ -58,6 +58,7 @@ body {
   margin-top: 20px;
   text-transform: uppercase;
   line-height: 1.6rem;
+  letter-spacing: 1px;
 }
 .profileText h2 span {
   font-size: 0.8rem;
